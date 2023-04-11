@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-dark>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,8 +13,8 @@
     <!-- estilos css -->
     <link rel="stylesheet" href="style_dom.css" />
   </head>
-  <body>
-    <header class="header">
+  <body data-dark>
+    <header class="header" data-dark>
       <h1>Ejercicios Del DOM</h1>
     </header>
     <button class="panel-btn hamburger hamburger--vortex" type="button">
@@ -26,8 +26,9 @@
       <nav class="menu">
         <div>
           <a href="#seccion1">Reloj Digital</a>
-          <a href="#seccion2">seccion 2</a>
-          <a href="#seccion3">seccion 3</a>
+          <a href="#seccion2">Eventos Del Teclado</a>
+          <a href="#seccion3">Cuenta Regresiva</a>
+          <a href="#seccion4">dd</a>
         </div>
       </nav>
     </aside>
@@ -44,12 +45,31 @@
       </section>
 
       <section id="seccion2" class="section">
-        <h2>seccion 2</h2>
+        <h2>Eventos Del Teclado</h2>
+        <article class="stage">
+          <div class="ball"></div>
+        </article>
       </section>
+
       <section id="seccion3" class="section">
-        <h2>Seccion 3</h2>
+        <h2>Cuenta Regresiva</h2>
+        <div id="countdown"></div>
+      </section>
+
+      <section id="seccion4" class="section">
+        <h2>ads</h2>
+      </section>
+
+      <section id="seccion4" class="section">
+        <h2>fffffffffffffff</h2>
+      </section>
+
+      <section id="seccion4" class="section">
+        <h2>jjjjjjjjjjjjjjj</h2>
       </section>
     </main>
+    <button class="scroll-top-btn hidden">&#11014;</button>
+    <button class="dark-theme-btn"></button>
     <script src="./index_dom.js" type="module"></script>
   </body>
 </html>
